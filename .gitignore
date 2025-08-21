@@ -1,0 +1,9 @@
+# Ignore environment files
+client/.env
+server/.env
+
+# Optional: Ignore OS or editor files
+.DS_Store
+node_modules/
+dist/
+.env
