@@ -1,3 +1,6 @@
-const API_URL = "http://localhost:5000";
+import dotenv from "dotenv";
+dotenv.config();
+
+const API_URL = process.env.BACKEND_URL
 
 export default API_URL;

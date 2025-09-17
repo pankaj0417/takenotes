@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/prop-types */
 import React, { useState } from "react";
 import SearchBar from "./SearchBar/SearchBar";
 import ProfileInfo from "./Cards/ProfileInfo";

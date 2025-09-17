@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/prop-types */
 import React from "react";
 import { FaTags } from "react-icons/fa6";
 import { MdCreate, MdDelete, MdOutlinePushPin } from "react-icons/md";
