@@ -21,7 +21,7 @@ const port = process.env.PORT || 5000;
 // to make input as json
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({ origin: ["http://localhost:5173"], credentials: true }));
+app.use(cors({ origin: ["https://takenote-un7m.onrender.com"], credentials: true }));
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
