@@ -142,7 +142,7 @@ const Home = () => {
       />
 
       <div className="container mx-auto">
-        {allNotes.length > 0 ? (
+        {Array.isArray(allNotes) && allNotes.length > 0 ? (
           <div className="grid grid-cols-2 gap-4 mt-8 sm:grid-cols-3 lg:grid-cols-4 max-md:m-5">
             {allNotes.map((note, index) => (
               <NoteCard
